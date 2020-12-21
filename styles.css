@@ -54,6 +54,11 @@ header img{
   border-radius: 50%;
   border: 5px solid #000 ;
   transition: all .5s;
+   transform: scale(1.0) rotate(-15deg);
+}
+
+header img:hover {
+   transform: scale(1.2) rotate(20deg);
 }
 
 .character{
